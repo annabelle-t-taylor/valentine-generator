@@ -16,6 +16,5 @@ app.get("/", (req,res) => {
 app.get("/pictures", (req,res) => {
     const pictureIndex = Math.floor(Math.random() * pictures.length)
     const commentIndex = Math.floor(Math.random() * comments.length)
-    console.log(commentIndex)
     res.render("pictures", {pictureFile: pictures[pictureIndex], comment: comments[commentIndex]})
 })

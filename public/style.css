@@ -6,9 +6,25 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+
+main{
+    animation: pageFadeIn 5s;
+    text-align: center;
+}
 h1{
     font-size: 55px;
+    font-family: 'Felipa', cursive;
 }
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.comment{
+    font-family: 'Raleway', sans-serif;
+}
+
 .button{
     background: rgb(242, 53, 86);
     color: white;
@@ -17,5 +33,33 @@ h1{
     padding: 10px 10px;
     border-radius: 10px;
     box-shadow: 0 5px rgb(239, 11, 51);
+    font-family: serif;
+}
 
+@keyframes pageFadeIn{
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+  
+    to {
+        opacity: 50%;
+        transform: translateY(-16px);
+    }
+    to{
+        opacity: 100%;
+        transform: translateY(-12px);
+    }
+    to{
+        opacity: 100%;
+        transform: translateY(-8px);
+    }
+    to{
+        opacity: 100%;
+        transform: translateY(-4px);
+    }
+    to{
+        opacity: 100%;
+        transform: translateY(0);
+    }
 }
