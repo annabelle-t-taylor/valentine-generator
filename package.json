@@ -1,7 +1,10 @@
 {
+  "bin": {
+    "happy-valentines-day": "./index.js"
+  },
   "name": "for-sam-2019",
-  "version": "1.0.0",
-  "description": "Happy Valentines Day!",
+  "version": "1.0.15",
+  "description": "Happy Valentines Day, Sam!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "hbs": "^4.0.1"
+    "hbs": "^4.0.1",
+    "path": "^0.12.7"
   }
 }
